@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="213.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cat.boscdelacoma.FXMLPersonaController">
+   <children>
+      <ButtonBar id="dOA318226759" layoutX="4.0" layoutY="160.0" prefHeight="40.0" prefWidth="436.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="3.0">
+        <buttons>
+            <Button fx:id="btnDesar" mnemonicParsing="false" onAction="#btnDesarAction" text="Desar" />
+          <Button fx:id="btnSaludar" mnemonicParsing="false" onAction="#btnSaludarAction" text="Saludar" />
+        </buttons>
+      </ButtonBar>
+      <Label fx:id="labelNom" layoutX="27.0" layoutY="53.0" prefHeight="18.0" prefWidth="87.0" text="Com et dius?" />
+      <TextField fx:id="textNom" layoutX="129.0" layoutY="49.0" prefHeight="26.0" prefWidth="359.0" />
+      <Label fx:id="labelDni" layoutX="80.0" layoutY="91.0" prefHeight="18.0" prefWidth="35.0" text="DNI" />
+      <TextField fx:id="textDni" layoutX="129.0" layoutY="87.0" prefHeight="26.0" prefWidth="146.0" promptText="000000000X" />
+      <Label fx:id="labelEdat" layoutX="80.0" layoutY="129.0" prefHeight="18.0" prefWidth="35.0" text="Edat" />
+      <TextField fx:id="textEdat" layoutX="129.0" layoutY="125.0" prefHeight="26.0" prefWidth="146.0" />
+   </children>
+</AnchorPane>
